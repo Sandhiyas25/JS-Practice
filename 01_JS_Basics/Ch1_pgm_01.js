@@ -15,4 +15,4 @@ console.log("Welcome to Java Script");
  *    Don't forget the semicolon.
  *
  * 4) Click Run.
- *
+ */
