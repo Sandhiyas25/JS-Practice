@@ -8,7 +8,14 @@ console.log(message);
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
 
+message ='The prize was five thousand rupees cash prize...';
+console.log(message);
 
+message = "Hello " + "World!";
+console.log(message);
+
+message = 'Congratulations' + '! ' + 'Your tweet' + ' has won a prize...';
+console.log(message);
 
 /* Further Adventures
  *
