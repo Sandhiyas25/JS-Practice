@@ -16,4 +16,3 @@ console.log("Welcome to Java Script");
  *
  * 4) Click Run.
  *
- */
