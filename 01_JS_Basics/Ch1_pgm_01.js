@@ -1,6 +1,7 @@
 // Using console.log to display information
 
-console.log("Hello World!");
+console.log("Hello All!");
+console.log("Welcome to Java Script");
 
 
 /* Further Adventures
