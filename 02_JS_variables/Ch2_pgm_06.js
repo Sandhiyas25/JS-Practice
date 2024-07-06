@@ -8,6 +8,14 @@ locationName = "Argentina";
 
 console.log(playerName + " is in " + locationName);
 
+var score;
+score = 100;
+
+var pname;
+pname = "Virat Kholi";
+console.log(pname + " scored " + score  + " in the last innings");
+
+
 
 
 /* Further Adventures
