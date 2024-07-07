@@ -14,6 +14,16 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
+var blogPost = {
+  title: "JavaScript Best Practices",
+  author: "John Doe",
+  publishDate: "July 6, 2024",
+};
+console.log("\nBlog Post: " + blogPost.title);
+console.log("------------------------------");
+console.log("Author: " + blogPost.author);
+console.log("Published on: " + blogPost.publishDate);
+console.log("------------------------------");
 
 
 /* Further Adventures
