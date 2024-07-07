@@ -22,6 +22,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+var movie4 = {
+  title: "Inception",
+  actors: "Leonardo DiCaprio, Joseph Gordon-Levitt",
+  directors: "Christopher Nolan"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -38,6 +44,48 @@ console.log("Movie information for " + movie3.title);
 console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
+console.log("------------------------------");
+
+console.log("\nMovie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+
+var event1 = {
+  title: "Conference on AI",
+  date: "July 15, 2024",
+  location: "San Francisco"
+};
+
+var event2 = {
+  title: "Web Development Workshop",
+  date: "August 5, 2024",
+  location: "New York City"
+};
+
+var event3 = {
+  title: "Design Expo",
+  date: "September 20, 2024",
+  location: "Los Angeles"
+};
+
+console.log("\nEvent: " + event1.title);
+console.log("------------------------------");
+console.log("Date: " + event1.date);
+console.log("Location: " + event1.location);
+console.log("------------------------------");
+
+console.log("\nEvent: " + event2.title);
+console.log("------------------------------");
+console.log("Date: " + event2.date);
+console.log("Location: " + event2.location);
+console.log("------------------------------");
+
+console.log("\nEvent: " + event3.title);
+console.log("------------------------------");
+console.log("Date: " + event3.date);
+console.log("Location: " + event3.location);
 console.log("------------------------------");
 
 
