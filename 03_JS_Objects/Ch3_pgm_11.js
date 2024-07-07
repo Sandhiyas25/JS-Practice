@@ -13,7 +13,18 @@ player1.score = player1.score + 50;
 
 console.log(player1.name + " has scored " + player1.score);
 
+player1.score = player1.score + 100; 
 
+console.log(player1.name + "'s score increased by 10% to " + player1.score);
+
+
+var player2 = {
+    name: "Ajax",
+    score: 0
+};
+
+var totalScore = player1.score + player2.score;
+console.log(player1.name + " and " + player2.name + " have a total score of " + totalScore);
 
 /* Further Adventures
  *
