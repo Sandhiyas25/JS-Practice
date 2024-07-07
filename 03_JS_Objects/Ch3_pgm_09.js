@@ -13,8 +13,15 @@ book2 = {
 	author: "Philip Pullman"
 };
 
+book3 = {
+	title : "Harry Potter",
+	author : "J.K. Rowling",
+	published : 1997
+};
+
 console.log(book1.title + " by " + book1.author);
 console.log(book2.title + " by " + book2.author);
+console.log(book3.title + " by " + book3.author + " in " + book3.published);
 
 
 
