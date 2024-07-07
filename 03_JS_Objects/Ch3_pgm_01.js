@@ -8,7 +8,7 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
-booktitle_2 = 
+
 
 
 
