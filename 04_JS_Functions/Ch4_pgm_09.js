@@ -1,8 +1,14 @@
 // Using a function to display object properties
-
 var showMovieInfo;
+var movie;
 
-showMovieInfo = function () {
+var movie = {
+  title: "Interstellar",
+  actors: ["Matthew, Jessica Chastain, Anne Hathaway"],
+  directors: ["Christopher Nolan"]
+}
+
+ var showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
   console.log("Actors: " + movie.actors);
@@ -10,7 +16,8 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-
+showMovieInfo();
+//showMovieInfo();
 
 /* Further Adventures
  *
