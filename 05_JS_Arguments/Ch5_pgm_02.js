@@ -2,14 +2,27 @@
 
 var msg;
 var showMessage;
+var message;
+var m;
 
 msg = "It's full of stars!";
+message = "It's a Moon!";
+m = msg + message;
 
-showMessage = function () {
-	console.log(message);
+showMessage = function (msg) {
+	console.log(msg);
 };
 
-showMessage();
+showMessage = function(message) {
+	console.log(message);
+}
+
+showMessage = function (m) {
+	console.log(m);
+}
+showMessage(msg);
+showMessage(message);
+showMessage(m);
 
 
 
