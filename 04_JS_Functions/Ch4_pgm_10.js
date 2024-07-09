@@ -17,8 +17,21 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
+movie2 = {
+  title: "Interstellar",
+  actors: "Matthew, Jessica Chastain, Anne Hathaway",
+  directors: "Christopher Nolan"
+}
 
-movie = movie1;
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
+
+movie = movie2;
 
 showMovieInfo();
 
