@@ -3,7 +3,7 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Welcome to\n JS!");
 };
 
 sayHello();
