@@ -25,6 +25,19 @@ console.log("Author: " + blogPost.author);
 console.log("Published on: " + blogPost.publishDate);
 console.log("------------------------------");
 
+var movie2;
+movie2 = {
+  title: "Conjuring",
+  actors:"Vera Farming, Patrick Wilson",
+  directors: "Michael Chavas, James Wan"
+};
+
+console.log("Movie information for " + movie2.title);
+console.log("------------------------------");
+console.log("Actors: " + movie2.actors);
+console.log("Directors: " + movie2.directors);
+console.log("------------------------------");
+
 
 /* Further Adventures
  *
