@@ -1,12 +1,16 @@
 // Passing information to a function
 
 var showMessage;
+var msg;
+var msage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message for you: " + message);
 };
 
-showMessage("It's full of stars!");
+showMessage("It's a Moon!");
+showMessage(msg);
+showMessage(msage);
 
 
 
