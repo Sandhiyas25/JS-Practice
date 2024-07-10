@@ -41,7 +41,44 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var ques1, ques2, ques3, ques, showques;
 
+ques1 = {
+    text : "Which planet is known as the Red Planet?",
+    options: ["A:Earth","B:Mars","C:Uranus","D:Saturn"],
+    correctoption:"B"
+};
+
+ques2 = {
+    text : "What is the largest mammal in the world?",
+    options: ["A:Dolphin","B:Shark","C:Blue Whale","D:Octopus"],
+    correctoption:"c"
+};
+
+ques3 = {
+    text : "What is the closest star to Earth?",
+    options: ["A:Sun","B:Moon","C:Mars","D:Neptune"],
+    correctoption:"A"
+};
+
+showques = function () {
+    console.log("Question: " + ques.text);
+    console.log("Options: ");
+    for (var i = 0; i < ques.options.length; i++) {
+        console.log(ques.options[i]);
+    }
+    console.log("Correct Answer: " + ques.correctoption);
+    console.log("------------------------------");
+};
+
+ques = ques1;
+showques();
+
+ques = ques2;
+showques();
+
+ques = ques3;
+showques();
 
 /* Further Adventures
  *

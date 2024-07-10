@@ -6,8 +6,11 @@ var bookName;
 bookName = "The Adventures of Tom Sawyer";
 
 book = {
-    title : bookName
+    title: bookName
 };
+{ title: "The Adventures of Tom Sawyer" }
+bookName = "Moby Dick";
+{ title: "Moby Dick" }
 
 
 

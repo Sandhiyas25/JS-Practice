@@ -23,8 +23,6 @@ var displayMyMenu = function () {
 displayMyMenu();
 
 
-
-
 /* Further Adventures
  *
  * 1) Add two more options to the displayMenu
