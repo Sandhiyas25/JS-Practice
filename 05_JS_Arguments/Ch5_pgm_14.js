@@ -12,12 +12,43 @@ var showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
 
+var showLine = function(length) {
+    var line = "-".repeat(length); 
+    console.log(line);
+};
+
+var showNameInBox = function(playerName) {
+    var length = playerName.length + 4; 
+    showLine(length);
+    console.log("| " + playerName + " |");
+    showLine(length);
+};
+
+var showLine = function(length) {
+    var line = "*".repeat(length); 
+    console.log(line);
+};
+
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("");
 
     showPlayerName(playerName);
 
-    console.log("----------------------------");
+    showLine(20);
+
+    showPlayerPlace(playerName, playerPlace);
+    showPlayerHealth(playerName, playerHealth);
+
+    showLine(20);
+    console.log("");
+};
+
+var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+    console.log("");
+
+    showPlayerName(playerName);
+
+    showNameInBox();
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
