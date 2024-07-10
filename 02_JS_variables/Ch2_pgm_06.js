@@ -12,7 +12,7 @@ var score;
 score = 100;
 
 var pname;
-pname = "Virat Kholi";
+pname = "Virat Kohli";
 console.log(pname + " scored " + score  + " in the last innings");
 
 
