@@ -36,7 +36,7 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
-
+console.log(getPlayerInfo("Dhoni", "Delhi", 50));
 
 
 
