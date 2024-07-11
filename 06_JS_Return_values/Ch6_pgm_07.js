@@ -3,10 +3,17 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    var name = "==== " + playerName + " ====";
+    var border = "| " + playerName;
+    
+    console.log(name);
+    console.log(border);
 };
 
-console.log(getPlayerName("Kandra"));
+getPlayerName("Kandra");
+getPlayerName("kiki");
+getPlayerName("Mahesha");
+getPlayerName("Jahver");
 
 
 
