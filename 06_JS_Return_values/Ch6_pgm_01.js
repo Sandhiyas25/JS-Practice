@@ -7,10 +7,15 @@ getMessage = function () {
     return "I’m going on an adventure!";
 };
 
+var getMessage = function(){
+    return "Welcome to learn Java Script";
+}
 response = getMessage();
 
 console.log(response);
 
+response = getMessage();
+console.log(response);
 
 
 /* Further Adventures

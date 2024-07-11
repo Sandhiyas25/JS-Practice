@@ -15,22 +15,19 @@ book3author = "Charles Dickens";
 
 console.log(bookTitle + " by " + bookAuthor);
 
-let books=[
-    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling"},
-    {title:"War and Peace", author:"Leo Tolstoy"},
-    {title:"Ulysses", author:"James Joyce"},
-    {title:"Utopia", author:"Sir Thomas Moor"},
-    {title:"Waste Land", author:"T.S Eliot"},
-    {title:"Treasure Island", author:"R.L. Stevenson"},
-    {title:"Time Machine", author:"H.G Wells"},
-    {title:"The Tempest", author:"William Shakespeare"},
-    {title:"Mein Kamph", author:"Adolf Hitler"},
-    {title:"Wealth of Nations", author:"Adam Smith"},
+let Books=[
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
+    {title:"Harry Potter and the Philosopher's Stone", author:"J.K. Rowling", year:1997},
 ];
 
-for (let a = 0; a < books.length; a++) {
-    console.log(Book ${a + 1} - title: ${books[a].title}, author: ${books[a].author});
-}
 
 
 
