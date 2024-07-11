@@ -5,6 +5,8 @@ var getPlayerName;
 getPlayerName = function (playerName) {
     var name = "==== " + playerName + " ====";
     var border = "| " + playerName;
+
+    return '|\n' + name + '|\n';
     
     console.log(name);
     console.log(border);
@@ -13,7 +15,7 @@ getPlayerName = function (playerName) {
 getPlayerName("Kandra");
 getPlayerName("kiki");
 getPlayerName("Mahesha");
-getPlayerName("Jahver");
+console.log(getPlayerName("Jahver"));
 
 
 
