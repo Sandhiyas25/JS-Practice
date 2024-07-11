@@ -10,7 +10,7 @@ var geolocation = {
     "elevation" : 47.000
   };
   
-  
+console.log(geolocation.city + "in " + geolocation.state + " in " + geolocation.country + " latitute of " + geolocation.latitude );
   
   /* Further Adventures
    *
