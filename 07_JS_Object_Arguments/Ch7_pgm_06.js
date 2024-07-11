@@ -6,7 +6,33 @@ var line = function (lineLength) {
     lineLength = Math.min(40, lineLength);
     return line.substr(0, lineLength);
   };
+
+  for (var i = -20; i <= 60; i += 10) {
+    console.log("Line length:", i);
+    console.log(line(i));
+}
   
+var spaces = function (spaceLength) {
+  spaceLength = Math.max(0, spaceLength);
+  spaceLength = Math.min(40, spaceLength);
+  return " ".repeat(spaceLength);
+};
+
+var emptyBox = function (boxWidth) {
+  boxWidth = Math.max(0, boxWidth);
+  boxWidth = Math.min(40, boxWidth);
+  
+  var topBottom = "=".repeat(boxWidth);
+  var middle = "= " + " ".repeat(boxWidth - 4) + " =\n";
+  var box = topBottom + "\n" + middle.repeat(3) + topBottom;
+  
+  console.log(box);
+};
+emptyBox(12);
+
+  console.log(spaces(10));  
+  console.log(spaces(50));
+
   console.log(line(30));
   console.log(line(40));
   console.log(line(50));
