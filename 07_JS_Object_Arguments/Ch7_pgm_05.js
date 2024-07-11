@@ -1,14 +1,26 @@
 // Using Math.min and Math.max
 
-var showSmaller = function (num1, num2) {
-    var smaller = Math.min(num1, num2);
-    var larger = Math.max(num1, num2);
+
+var showSmaller = function(num1, num2, num3){
+    var smaller = Math.min(num1, num2, num3);
+    var larger = Math.max(num1, num2, num3);
 
     console.log(smaller + " is smaller than " + larger);
 };
 
-showSmaller(12, 3);
-showSmaller(-10, 3);
+var showLarger = function(num1,num2){
+    var smaller = Math.min(num1, num2);
+    var larger = Math.max(num1, num2);
+    console.log(larger + " is larger than " + smaller);
+};
+
+
+showSmaller(20,100,2);
+showSmaller(-10,-70, 1);
+showLarger(22,-22);
+showLarger(100,1000);
+
+
 
 
 
