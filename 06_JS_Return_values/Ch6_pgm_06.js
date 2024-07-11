@@ -22,6 +22,10 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
 };
 
 console.log(getMessage());
+console.log(getHelloTo("Dax"));
+console.log(getHelloTo("Virat"));
+console.log(getHelloTo("Hardik"));
+console.log(totalCost(30, 500, 12));
 
 
 /* Further Adventures
