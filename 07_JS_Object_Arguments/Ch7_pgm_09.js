@@ -2,9 +2,20 @@
 
 var message = "We choose to go to the Moon!";
 
-var charIndex = message.indexOf("M");
+var indexOfGo = message.indexOf("go");
+console.log("Index of 'go':", indexOfGo); 
 
-console.log(message.substr(charIndex, 3));
+
+var indexOfChoose = message.indexOf("choose");
+var choose = message.substr(indexOfChoose, "choose".length);
+console.log("Word 'choose':", choose); 
+
+
+var lastIndex = message.lastIndexOf("oo");
+console.log("Index of 'oo' in 'Moon':", lastIndex); 
+
+
+
 
 
 
