@@ -1,7 +1,7 @@
 // Using a variable as an index
 
 var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-var dayInWeek = 4;
+var dayInWeek = 5;
 
 console.log( days[dayInWeek] );
 console.log( days[dayInWeek - 1] );
