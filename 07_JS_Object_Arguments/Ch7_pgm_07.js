@@ -3,7 +3,20 @@
 var planet = "Jupiter";
 var bigPlanet = planet.toUpperCase();
 
+
 console.log(planet + " becomes " + bigPlanet);
+
+var getBig = function(string){
+    return string.toUpperCase();
+
+}
+var getSmall = function(string){
+    return string.toLowerCase();
+
+}
+
+console.log("India is my country " + getSmall("India"));
+console.log("JavaScript is a SCRIPTING LANGUAGE " + getSmall("SCRIPTING language"));
 
 
 
