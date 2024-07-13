@@ -8,6 +8,35 @@ items.forEach(function (item) {
 	console.log(" – " + item);
 });
 
+console.log("Number of places to visit: " + items.length);
+
+var items = [ "The Pyramids", "The Grand Canyon", "Bondi Beach" ];
+
+var showItems = function() {
+    console.log("Dream destinations:");
+    items.forEach(function(item, index) {
+        console.log((index + 1) + ". " + item);
+    });
+    console.log("Number of places to visit: " + items.length);
+};
+showItems(); 
+
+
+var showItems = function() {
+    console.log("Dream destinations:");
+    items.forEach(function(item, index) {
+        console.log((index + 1) + ". " + item);
+    });
+    console.log("Number of places to visit: " + items.length);
+};
+showItems();
+
+items.push("Eiffel Tower", "Machu Picchu");
+items.splice(1, 1); 
+showItems();
+
+
+
 
 
 /* Further Adventures
