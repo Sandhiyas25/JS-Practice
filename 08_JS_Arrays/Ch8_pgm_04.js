@@ -6,6 +6,15 @@ var dayInWeek = 5;
 console.log( days[dayInWeek] );
 console.log( days[dayInWeek - 1] );
 
+var dayInWeek = 2;
+console.log( days[dayInWeek] );   
+
+function getDay(dayNumber) {
+    var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+    return days[dayNumber - 1];
+}
+
+console.log( getDay(4) );   
 
 
 /* Further Adventures
