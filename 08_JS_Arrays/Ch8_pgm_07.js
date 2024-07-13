@@ -9,13 +9,29 @@ items = [
   "Bondi Beach"
 ];
 
+items.push("Eiffel Tower");
+items.push("Machu Picchu");
+items.push("Great Wall of China");
+
+items = items.concat(["Niagara Falls", "Taj Mahal"]);
+console.log(items);
+
 showInfo = function (itemToShow) {
     console.log(itemToShow);
 };
 
 items.forEach(showInfo);
 
+var totalLetters = function() {
+  var total = 0;
+  items.forEach(function(item) {
+      total += item.length;
+  });
+  return total;
+};
 
+
+console.log("Total number of letters in all items: " + totalLetters());
 
 /* Further Adventures
  *
