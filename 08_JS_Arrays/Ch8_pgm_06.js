@@ -4,9 +4,12 @@ var items = [];
 var item = "The Pyramids";
 var removed;
 
+items[2] = "The Taj Mahal";
+
 items.push(item);
 items.push("The Grand Canyon");
 items.push("Bondi Beach");
+items.push("Beach");
 
 console.log(items);
 
