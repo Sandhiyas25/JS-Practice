@@ -16,15 +16,38 @@ var Planet = function (name, position, type) {
     this.addMoon = function (moon) {
         this.moons.push(moon);
     };
-};
+
+    this.removeMoon = function() {
+        if (this.moons.length > 0) {
+          var removedMoon = this.moons.pop();
+          console.log("Removed moon: " + removedMoon);
+        } else {
+          console.log("No moons to remove.");
+        }
+      };
+    };   
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+
 
 planet.addMoon("Io");
 planet.addMoon("Europa");
 
 planet.showPlanet();
 
+var neptune = new Planet("Neptune", 8, "Ice Giant");
+
+neptune.addMoon("Triton");
+neptune.addMoon("Nereid");
+neptune.addMoon("Proteus");
+
+console.log("\nSecond Planet:");
+neptune.showPlanet();
+
+neptune.removeMoon();
+
+console.log("\nAfter removing a moon:");
+neptune.showPlanet();
 
 
 /* Further Adventures
