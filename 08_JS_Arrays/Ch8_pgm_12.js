@@ -1,29 +1,59 @@
 // Displaying a multiple choice question
 
-var displayQuestion = function (questionAndAnswer) {
-    var options = [ "A", "B", "C", "D", "E" ];
-    
-    console.log(questionAndAnswer.question);
-    
-    questionAndAnswer.answers.forEach(
-      function (answer, i) {
-        console.log(options[i] + " - " + answer);
-      }
-    );
-  };
+var displayQuestion = function(questionAndAnswer) {
+  var options = ["A", "B", "C", "D", "E"];
   
-  var question1 = {
-    question : "What is the capital of France?",
-    answers : [
-      "Bordeaux",
-      "F",
-      "Paris",
-      "Brussels"
-    ],
-    correctAnswer : "Paris"
-  };
+  console.log(questionAndAnswer.question);
   
-  displayQuestion(question1);
+  questionAndAnswer.answers.forEach(function(answer, i) {
+    console.log(options[i] + " - " + answer);
+  });
+};
+
+var question1 = {
+  question: "What is the capital of France?",
+  answers: [
+    "Bordeaux",
+    "F",
+    "Paris",
+    "Brussels"
+  ],
+  correctAnswer: "Paris"
+};
+
+var question2 = {
+  question: "What is the largest ocean on Earth?",
+  answers: [
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Arctic Ocean",
+    "Pacific Ocean"
+  ],
+  correctAnswer: "Pacific Ocean"
+};
+
+var question3 = {
+  question: "Who wrote 'Harry Potter' series?",
+  answers: [
+    "J.K. Rowling",
+    "Stephen King",
+    "George R.R. Martin",
+    "J.R.R. Tolkien"
+  ],
+  correctAnswer: "J.K. Rowling"
+};
+
+var questions = [question1, question2, question3];
+
+questions.forEach(function(question, index) {
+  console.log("\nQuestion " + (index + 1) + ":");
+  displayQuestion(question);
+});
+
+
+console.log("\nDisplaying question 2:");
+displayQuestion(questions[1]);
+
   
   
   
