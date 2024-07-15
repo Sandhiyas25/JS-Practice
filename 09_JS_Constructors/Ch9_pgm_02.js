@@ -23,7 +23,14 @@ var planet1 = buildPlanet(
     "Gas Giant"
 );
 
+var planet2 = buildPlanet(
+    "Saturn",
+    6,
+    "Gas Giant"
+)
+
 planet1.showPlanet();
+planet2.showPlanet();
 
 
 
