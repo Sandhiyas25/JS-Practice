@@ -20,6 +20,16 @@ console.log(planet1.name);
 console.log(planet1.position);
 console.log(planet1.type);
 
+var planet2 = buildPlanet(
+    "Saturn",
+    6,
+    "Gas Giant"
+);
+
+console.log(planet2.name);
+console.log(planet2.position);
+console.log(planet2.type);
+
 
 
 /* Further Adventures
